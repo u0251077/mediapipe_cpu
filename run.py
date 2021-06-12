@@ -32,7 +32,7 @@ def drawpointstoframe(points, frame):
 
 
 cv2.namedWindow(WINDOW)
-capture = cv2.VideoCapture(0)
+capture = cv2.VideoCapture("123.mp4")
 
 if capture.isOpened():
     hasFrame, frame = capture.read()
